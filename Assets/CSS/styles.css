@@ -4,7 +4,7 @@
 html{
     font-size: 10px;
 }
- ul{ 
+nav ul{ 
     display: flex;
     flex-direction:row;
     justify-content: space-between;
@@ -18,24 +18,24 @@ html{
     padding: 2rem;
     text-align: center;
 }
- ul:first-child{
+nav ul:first-child{
     padding-left: 0;
 }
 a{
     color:white;
     text-decoration: none;
 }
- ul li a{
+nav ul li a{
     text-decoration: none;
     color: white;
 }
- ul li span{
+nav ul li span{
     font-family: serif;
     font-style: italic;
     font-size: 1.8rem;
     
 }
-ul li button{
+nav ul li button{
     font-size: 2rem;
     font:bolder;
     color:white;
@@ -115,4 +115,11 @@ background-color:grey;
 }
 .article1{
     padding:4rem;
+}
+.sec-div{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style:oblique;
+    font-weight: 500;
+    font-size: 2rem;
+    background-color:rgb(241, 239, 239);
 }
