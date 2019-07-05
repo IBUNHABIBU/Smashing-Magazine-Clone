@@ -19,7 +19,10 @@ nav ul li{
 nav ul:first-child{
     padding-left: 0;
 }
-
+a{
+    color:white;
+    text-decoration: none;
+}
 nav ul li a{
     text-decoration: none;
     color: white;
@@ -41,4 +44,21 @@ nav ul li button{
     margin-right: 0;
     width:8rem;
     border-radius: 0.5rem;
+}
+.box1{
+    display:inline-grid;
+    grid-template-columns: auto auto;
+    grid-gap: 2rem;
+    grid
+}
+.box1:first-child{
+    background-color: black;
+}
+.inner-box{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    font-style: oblique;
+    font:bolder;
+    font-weight: 600;
+    widh:50%;
 }
