@@ -50,7 +50,7 @@ nav ul li button{
     grid-template-columns: auto auto;
     padding-top:2rem;
     height:100%;
-
+    margin-top: 0;
 }
 .inner-box:nth-child(odd){
 background-color: grey;
@@ -64,13 +64,48 @@ background-color: grey;
     font-style: normal;
     font-size: 2rem;
     font-weight: 600;
+    padding:8rem;
 }
 .inner-box .susan{
-    font-family: cursive;
+    /* font-family: cursive;
     font-style: normal;
     font-size: 2rem;
     font-weight: 600;
+    margin-bottom: 12rem;
+    padding-bottom: 18rem; */
 }
 #live{
     font-size: 2rem;
+}
+#more{
+    padding-top: 2rem;
+    font:Mija normal ;
+    text-justify: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.latest{
+    position: absolute;
+    background-color: gray;
+    font:4rem "bree serif" normal;
+    float:right;
+    left:64rem;
+    text-align: center;
+}
+.btn{
+    float:right;
+    font:4rem "bree serif" normal;
+    border-radius:1rem;
+    position: absolute;
+    right:2rem;
+}
+.article{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    font:bold 2rem Mija normal;
+    background-color: rgb(241, 239, 239);
+}
+.article1{
+    padding:4rem;
 }
