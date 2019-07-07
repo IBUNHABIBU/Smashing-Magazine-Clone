@@ -130,7 +130,7 @@ background-color:grey;
     padding: 1.5rem;
     background-color: blanchedalmond;
     font-size: 2rem;
-    bord-radius:0.1rem;
+    
 }
 .coming-up{
     font:2rem;
@@ -144,4 +144,27 @@ background-color:grey;
     padding:2rem;
     font:2rem verdana;
     border-radius:1rem;
+}
+.final{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    font:2rem bold verdana;
+    font-weight:700;
+    font-size:2rem;
+    font-style:italic;
+}
+.feature-panel{
+    font-weight:700;
+    font-size:2rem;
+    font-style:italic;
+    grid-gap:6rem;
+    padding:4rem;
+}
+.feature{
+    background:rgb(200,23,183);
+    display:grid;
+    font-weight:700;
+    font-size:2rem;
+    font-style:italic;
+
 }
