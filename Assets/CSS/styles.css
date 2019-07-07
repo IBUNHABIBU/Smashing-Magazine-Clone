@@ -111,48 +111,128 @@ background-color:rgb(53, 50, 50);
     border:0.3rem solid white;
     border-radius:2rem;
     background-color:rgb(136, 132, 132);
-
+    color:white;
+    font-size: 1.5rem;
 }
 .article{
-
+    display: grid;
     grid-template-columns: auto auto auto;
-
     background-color: rgb(241, 239, 239);
 }
 .article1{
+    font-size:2rem;
     padding:4rem;
+}
+.article1:after{
+    content:"→";
+    padding-bottom: 0;
+    position:relative;
+    left:8rem;
+    font-size: bold;
+    bottom:0;
+}
+.article1 h1,h4 {
+    font-family: cursive;
+}
+
+.article1:nth-child(2){
+    
+}
+
+.article1:nth-child(3){
+    
 }
 .div-btn{
     background-color: red;
-    padding: 1.5rem;
+    padding: 1rem;
     color:white;
     font:1rem;
     border-radius:1rem;
     border:0.1rem;
+    position: relative;
+    left:12rem;
 }
 .div1{
     border:0.5rem solid ;
     background-color: black;
     color: white;
+    font-size:2rem;
+    border-radius:2rem;
+    font-family: 'Black Ops One', cursive;
+    align-content: center;
+    height:20rem;
+}
+
+.div2{
+    font-family: cursive;
+    font-size: 2rem;
+    border:0.2rem solid;
+    border-radius:1rem;
+    background-color: rgb(180, 165, 165);
+    grid-column:2/span 2;
+    height:60rem;
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/aea2faf51cc69a1e10bb434aa92f7c3821f16787/e4922/images/smashing-cat/singing-barista.svg");
+    background-size: 30% 30%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+.div2>*{
+    position:relative;
+    top:18rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.div2 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.div2 p:last-child{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
 }
 .div2-btn{
     padding: 1.5rem;
     background-color: blanchedalmond;
-    font-size: 2rem;
-    
+    font-size: 2.5rem;
+    border-radius:1rem;   
+    font-weight: bolder;
+    position: relative;
+    top:18rem;
+    left:26rem;
+}
+.div2-btn a{
+    text-decoration: none;
 }
 .coming-up{
-    font:2rem;
-    font-size:22pt;
-    font-family:verdana;
-    background:url("https://d33wubrfki0l68.cloudfront.net/f0cc4f374fb7edb5677c0e050c84a3f392b8eb8a/943f8/images/events/jamconf-full.svg");
+    background-color:rgb(99, 80, 107);
+    background-image:url("https://d33wubrfki0l68.cloudfront.net/f0cc4f374fb7edb5677c0e050c84a3f392b8eb8a/943f8/images/events/jamconf-full.svg");
     background-repeat:no-repeat;
     text-align:center;
+    background-size: 70% 70%;
+    background-position-y: bottom;
+    background-position-x: center;
+    height:50rem;
+    padding:4rem;
+  }
+.coming-up h1{
+    font-family: cursive, 'Times New Roman', Times, serif;
+    font-size: 4rem;
 }
 .coming-up-btn{
     padding:2rem;
     font:2rem verdana;
     border-radius:1rem;
+    font-weight: bolder;
+}
+.coming-up p:nth-child(1){
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:1.6rem;
+}
+
+.coming-up p:nth-child(3){
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.4rem;
 }
 .final{
     display:grid;
@@ -167,7 +247,7 @@ background-color:rgb(53, 50, 50);
     font-size:2rem;
     font-style:italic;
     grid-gap:6rem;
-    padding:4rem;
+    
 }
 .feature{
     background:rgb(200,23,183);
@@ -189,4 +269,13 @@ footer{
     padding-top:1rem;
     padding-bottom:1rem;
     font-size: bold;
+}
+.latest-article{
+    grid-column: 1/span 3;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:10rem;
 }
