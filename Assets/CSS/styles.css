@@ -166,5 +166,7 @@ background-color:grey;
     font-weight:700;
     font-size:2rem;
     font-style:italic;
-
+}
+.row{
+    font-size:3rem;
 }
