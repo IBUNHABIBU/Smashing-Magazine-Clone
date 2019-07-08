@@ -77,7 +77,10 @@ background-color:rgb(53, 50, 50);
     font-weight: 600;
     padding:8rem;
 }
-
+#wrote{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
 #live{
     font-size: 2rem;
 }
@@ -216,6 +219,7 @@ background-color:rgb(53, 50, 50);
     background-position-x: center;
     height:50rem;
     padding:4rem;
+    color:white;
   }
 .coming-up h1{
     font-family: cursive, 'Times New Roman', Times, serif;
@@ -226,6 +230,7 @@ background-color:rgb(53, 50, 50);
     font:2rem verdana;
     border-radius:1rem;
     font-weight: bolder;
+    color: rgb(73, 123, 230);
 }
 .coming-up p:nth-child(1){
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -474,4 +479,8 @@ background-color: rgb(100, 98, 98);
     top:49rem;
     left:10rem;
     font-size: 2rem;
+}
+.finale p{
+    
+
 }
