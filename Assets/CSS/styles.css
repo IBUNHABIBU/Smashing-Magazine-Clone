@@ -329,3 +329,34 @@ color:black;
     left:26rem; */
     margin:1rem;
 }
+.linksfoot{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 2rem;
+padding-left: 2rem;
+background-color: rgb(208, 209, 209);
+padding:4rem;
+}
+.guide p{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.6rem;
+color: grey;
+}
+.gudes-title{
+font-family: cursive;
+font-size: 2.6rem;
+}
+.grid-content ul li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.1rem;
+    list-style-type: inherit;
+    line-height: 4rem;
+    color: rgb(71, 74, 75);
+}
+.grid-content ul li a{
+    color: #006FC6;
+}
+.final6 a{
+    text-decoration: none;
+    color: black;
+}
