@@ -417,3 +417,61 @@ background-color: rgb(100, 98, 98);
 .last-footer{
     word-spacing: 0.4rem;
 }
+.guide-last{
+    border:0.1rem solid;
+    grid-column:2/span 2;
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/ce7741e1659c0366fda51555365194e0bfd136c0/ae578/images/smashing-cat/cat-with-trampet.svg");
+    background-repeat:no-repeat;
+    background-size: 60% 60%;
+    background-position-x: 12rem;
+    background-position-y: 9rem;
+    background-color: rgb(79, 76, 82);
+    color: white;
+    border-radius: 1rem;
+    height:78rem;
+}
+.sm-news-letter h2{
+    font-family: cursive;
+    font-size: 3.6rem;
+    text-align: center;
+}
+.sm-news-letter p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.9rem;
+    text-align: center;
+}
+.form-wrapper{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 1.6rem;
+}
+.form{
+   
+ border:0.1rem solid;
+ width:60%;
+ height:6rem;
+ border-radius:0.5rem;
+ margin-right: 0;
+}
+.sm-news-letter a{
+    color: bisque;
+}
+.useful{
+    position:relative;
+    top:52rem;
+    left:12rem;
+}
+.sub-btn{
+    padding: 1.5rem;
+    background-color: white;
+    font-size: 2.5rem;
+    border-radius:1rem;   
+    font-weight: bolder;
+}
+.the-form{
+    width:70%;
+    height:6rem;
+    position:relative;
+    top:49rem;
+    left:10rem;
+    font-size: 2rem;
+}
