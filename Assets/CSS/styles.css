@@ -1,3 +1,4 @@
+/* initialization */
 *{
     margin:0;
 }
@@ -7,6 +8,7 @@ html{
 body{
     display:grid;
 }
+/*  BEGIN of styling the navigation*/
 nav ul{ 
     display: flex;
     flex-direction:row;
@@ -44,6 +46,19 @@ nav ul li button{
     width:8rem;
     border-radius: 0.5rem;
     margin-bottom: 0;
+}
+/* END of styling the navigation */
+
+/*BEGIN of styling the header */
+
+.latest{
+    position:absolute;
+    font-family: cursive;
+    font-weight: bold;
+    font-size:1.5rem;
+    float:right;
+    left:56rem;
+    text-align: center;
 }
 .box1 a{
     color:white;
@@ -92,20 +107,14 @@ background-color:rgb(53, 50, 50);
     flex-direction: row;
     justify-content: space-evenly;
 }
+/*END of styling the header*/
+
+/* BEGIN of styling the main tag */
 #dont{
     background-color:rgb(224, 219, 219);
 }
 #art{
     background-color: rgb(224, 219, 219);
-}
-.latest{
-    position:absolute;
-    font-family: cursive;
-    font-weight: bold;
-    font-size:1.5rem;
-    float:right;
-    left:56rem;
-    text-align: center;
 }
 
 #btn{
@@ -118,6 +127,7 @@ background-color:rgb(53, 50, 50);
     color:white;
     font-size: 1.5rem;
 }
+
 .article{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -281,9 +291,7 @@ background-color:rgb(53, 50, 50);
     font-size:2rem;
     font-style:italic;
 }
-.row{
-    font-size:3rem;
-}
+
 footer{
     font-size:2rem;
 }
@@ -451,14 +459,22 @@ background-color: rgb(100, 98, 98);
 }
 .form{
    
- border:0.1rem solid;
+ border-top:0.1rem solid;
+ border-bottom:0.1rem solid;
+ border-left:0.1rem solid;
+ margin-right: -11rem;
  width:60%;
- height:6rem;
+ height:5rem;
+ padding-top: 0.8rem;
  border-radius:0.5rem;
  margin-right: 0;
+
 }
 .sm-news-letter a{
     color: bisque;
+}
+.useful a{
+    color:white;
 }
 .useful{
     position:relative;
@@ -469,8 +485,11 @@ background-color: rgb(100, 98, 98);
     padding: 1.5rem;
     background-color: white;
     font-size: 2.5rem;
-    border-radius:1rem;   
+    border-start-end-radius: 2rem; 
     font-weight: bolder;
+    margin-left: -1rem;
+    position: relative;
+    top:0.1rem;
 }
 .the-form{
     width:70%;
@@ -482,5 +501,4 @@ background-color: rgb(100, 98, 98);
 }
 .finale p{
     
-
 }
