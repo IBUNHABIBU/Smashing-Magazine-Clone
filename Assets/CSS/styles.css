@@ -258,6 +258,11 @@ background-color:rgb(53, 50, 50);
     font-size:2rem;
     grid-gap: 4rem;
 }
+.finale p:nth-child(1){
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold;
+}
 .finale{
     padding: 4rem;
 }
@@ -292,6 +297,7 @@ background-color:rgb(53, 50, 50);
     font-style:italic;
 }
 
+/*BEGIN of styling the footer*/
 footer{
     font-size:2rem;
 }
