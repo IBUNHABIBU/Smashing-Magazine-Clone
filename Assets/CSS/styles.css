@@ -228,9 +228,9 @@ background-color:rgb(53, 50, 50);
     font:2rem verdana;
     border-radius:1rem;
     font-weight: bolder;
-    color: rgb(73, 123, 230);
+    color: rgba(73, 123, 230, 0.007);
 }
-.coming-up p:nth-child(1){
+.coming-up h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size:1.6rem;
 }
